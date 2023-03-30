@@ -29,9 +29,11 @@
   }
   .project-1{
     width: 80%;
-    min-height: 200px;
+    min-height: 20px;
   }
-  .project-2,
+  .project-2{
+    max-height: 50px;
+  }
   .project-3,
   .project-4{
     width: 49%;
@@ -45,6 +47,12 @@
   }
   
   @media screen and (min-width: 992px) {
+    section{
+      flex-direction: column;
+      padding: 2% 4%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
     .project-2,
     .project-3,
     .project-4{
