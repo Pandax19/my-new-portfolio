@@ -1,21 +1,29 @@
 * {
+  
   margin: 0px;
   padding: 0px;
   /* box-sizing: border-box; */
   /* background-image: linear-gradient(rgb(54, 4, 134), black);; */
 }
 
+
+body{
+  background-image: url('../images/plants.jpg');
+}
+
 html {
   color: white;
   scroll-behavior: smooth;
-  background-image: linear-gradient(rgb(54, 4, 134), black);
+  /* background-image: linear-gradient(rgb(54, 4, 134), black); */
+  
 }
 p{
   font-size: 22px;
   padding:8px;
+  background: rgb(0,139,0);
+  background: linear-gradient(90deg, rgba(0,139,0,0.3393732492997199) 0%, rgba(7,159,36,0.9528186274509804) 0%, rgba(88,9,121,1) 64%, rgba(14,255,0,0.8155637254901961) 100%);
 
 }
-
 
 header nav ul li a {
   text-decoration: none;
@@ -42,17 +50,26 @@ nav {
 
 h1{
   font-size: 36px;
+  margin: 6px;
   padding:8px;
+  /* background: rgb(0,139,0);
+background: linear-gradient(90deg, rgba(0,139,0,0.3393732492997199) 0%, rgba(7,159,36,0.9528186274509804) 0%, rgba(88,9,121,1) 64%, rgba(14,255,0,0.8155637254901961) 100%); */
 }
 
 h2{
-  font-size: 24px;
+  font-size: 36px;
   padding: 10px;
-  
+  /* background-color:rgb(92, 0, 128) */
+  background: rgb(0,139,0);
+background: linear-gradient(90deg, rgba(0,139,0,0.3393732492997199) 0%, rgba(7,159,36,0.9528186274509804) 0%, rgba(88,9,121,1) 64%, rgba(14,255,0,0.8155637254901961) 100%);
 }
 
 h3{
-  padding: 10px
+  padding: 10px;
+  /* background-color:rgb(92, 0, 128);
+   */
+   background: rgb(0,139,0);
+background: linear-gradient(90deg, rgba(0,139,0,0.3393732492997199) 0%, rgba(7,159,36,0.9528186274509804) 0%, rgba(88,9,121,1) 64%, rgba(14,255,0,0.8155637254901961) 100%);
 }
 
 /* .article {
@@ -69,36 +86,56 @@ section {
   justify-content: center;
 }
 
-
+img{
+  margin: 6px;
+  border: rgb(92, 0, 128) 30px solid;
+  /* padding: solid purple; */
+ 
+}
 
 #banner {
- 
-
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 100%;
-}
+} 
+
 .footer {
   display: flex;
-  flex: 0 1 100%;
+  /* align-items: right; */
+  flex: 0 0 20%;
   flex-direction: row;
   display: inline-block;
   justify-content: center;
 }
 
 footer ul li {
+  background-color: white;
   display: inline;
   justify-content: space-evenly;
   font-size: 1.5em;
   
 }
 
+#test{
+  position:absolute;
+  margin-left: 4rem;
+  margin-top:4rem;
+}
+
+.header-left{
+  position: absolute;
+  margin-top: 12rem;
+  margin-left: 4rem;
+}
+
 #projects {
+
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  height: 300px;
+  /* justify-content: center; */
+
+  /* height: 300px; */
 }
 
 .project-1 {
@@ -141,6 +178,6 @@ footer ul li {
 
 .pic{
   justify-content: space-between;
-  padding:30px;
+  /* padding:30px; */
   
 }
