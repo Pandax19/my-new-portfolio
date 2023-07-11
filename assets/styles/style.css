@@ -20,6 +20,7 @@ html {
 p{
   font-size: 22px;
   padding:8px;
+  width:flex;
   background: rgb(0,139,0);
   background: linear-gradient(90deg, rgba(0,139,0,0.3393732492997199) 0%, rgba(7,159,36,0.9528186274509804) 0%, rgba(88,9,121,1) 64%, rgba(14,255,0,0.8155637254901961) 100%);
 
