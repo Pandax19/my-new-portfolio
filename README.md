@@ -1,6 +1,5 @@
 # my-new-portfolio
 
-![screenshot](./assets/images/portfolio-screenshot.JPG)
 
 ##  Desciption
 
@@ -15,10 +14,12 @@ This goal of this project was to create a portfolio using CSS and HTML elements 
 
 ## Installation
 No install necessary
+
 ## Usage
 Open in Browser.  https://pandax19.github.io/my-new-portfolio/
+
 ## Screenshot
-![screenshot]
+![screenshot](./assets/images/port-pic.JPG)
 
 ## Credits
 

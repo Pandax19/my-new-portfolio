@@ -93,6 +93,11 @@ img{
  
 }
 
+.proj{
+  height: 10px;
+  width: 50px;
+}
+
 #banner {
   align-items: center;
   justify-content: center;
